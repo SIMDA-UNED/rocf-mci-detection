@@ -5,3 +5,7 @@ data/models
 data/execution_times
 data/histories
 data/embeddings
+data/stopping_epochs
+data/predictions
+data/distances_to_anchor
+data/metrics_confusion_matrices
