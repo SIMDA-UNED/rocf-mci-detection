@@ -9,13 +9,13 @@ This code repository is the official source code of the paper ["Mild Cognitive I
 
 Operating system: GNU/Linux Debian 13 (trixie=stable 2025-08-09)
 
-Hardware environment: Intel(R) Core(TM) i7-7820X CPU @ 3.60Ghz, 32 GB RAM, NVIDIA GeForce GTX 1080.
+Hardware environment: Intel(R) Core(TM) i7-7820X CPU @ 3.60Ghz, 32 GB RAM, NVIDIA GeForce GTX 1080 GPU.
 
 Programming language: Python 3.8.12
 
 Programming libraries: TensorFlow + Keras 2.4.1
 
-Please, download the [augmented ROCFD528 (binary images)](https://edatos.consorciomadrono.es/dataverse/rey) dataset. Make sure to convert the augmented ROCFD528 dataset into a pickle using the script utils/dataset_to_pickle.py.
+Please, download the [augmented ROCFD528 (binary images)](https://doi.org/10.21950/MFHOO4) dataset. Make sure to convert the augmented ROCFD528 dataset into a pickle using the script utils/dataset_to_pickle.py.
 
 How to clone and use our environment will be detailed in the following.
 
@@ -47,7 +47,7 @@ python train_siamese_model_with_rocf_dataset.py
 If you find this code useful to your research, please cite our paper as the following bibtex:
 
 ```
-BIBTEX
+TBD
 ```
 
 ## License
