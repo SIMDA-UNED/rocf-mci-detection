@@ -82,7 +82,6 @@ custom_distance_threshold = args.custom_distance_threshold
 subset_to_evaluate = args.subset_to_evaluate
 
 output_predictions_dir = args.output_predictions_dir
-output_embeddings_dir = args.output_embeddings_dir
 output_distances_to_anchor_dir = args.output_distances_to_anchor_dir
 
 custom_gpu_id = args.custom_gpu_id
@@ -289,11 +288,9 @@ if __name__ == '__main__':
     
     if SAVE_DISTANCES_TO_ANCHOR:
       
-      eval_indices_labels = y[ eval_indices ]
-      
       distances_to_anchor_as_csv_path = experiment_output_distances_to_anchor_dir + 'fold' + current_fold_as_string + '.csv'
   
-      distances_dataframe = pd.DataFrame( { "Filename": paths[ eval_indices ], "Distances": distance_array, "Label": eval_indices_labels } )
+      distances_dataframe = pd.DataFrame( { "Filename": paths[ eval_indices ], "Distances": distance_array, "Label": eval_y } )
       distances_dataframe.to_csv( distances_to_anchor_as_csv_path, index = False, header = True )
   
       print( 'Saving distances to anchor as a CSV file to:', distances_to_anchor_as_csv_path )
