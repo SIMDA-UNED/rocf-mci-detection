@@ -15,9 +15,12 @@ Programming language: Python 3.8.12
 
 Programming libraries: TensorFlow + Keras 2.4.1
 
-Please, download the [augmented ROCFD528 (binary images)](https://doi.org/10.21950/MFHOO4) dataset. Make sure to convert the augmented ROCFD528 dataset into a pickle using the script utils/dataset_to_pickle.py.
+Download the [augmented ROCFD528 (binary images)](https://doi.org/10.21950/MFHOO4) dataset. 
 
-How to clone and use our environment will be detailed in the following.
+The default directory of the dataset is:
+/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocfd528_augmented/
+
+Please note that the files data/dataset_information/rocf_reference.png (the ROCF model), data/dataset_information/rocfd528_info.csv (ROCFD528 labels), and data/dataset_information/rocfd528_augmented_info.csv (augmented ROCFD528 labels) are only available upon formal request.
 
 ## Usage
 
@@ -29,10 +32,8 @@ git clone https://github.com/SIMDA-UNED/rocf-mci-detection.git
 # 2. Enter the directory.
 cd rocf-mci-detection
 
-# 3. Make sure that the dataset is downloaded.
-
-Default directory with the augmented ROCFD528 dataset:
-/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocfd528_augmented/
+# 3. Convert our dataset into a pickle.
+python utils/dataset_to_pickle.py
 
 # 4. Execute any of our scripts.
 
