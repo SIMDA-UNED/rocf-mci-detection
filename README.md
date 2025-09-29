@@ -20,7 +20,7 @@ Download the [augmented ROCFD528 (binary images)](https://doi.org/10.21950/MFHOO
 The default directory of the dataset is:
 /home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocfd528_augmented/
 
-Please note that the files data/dataset_information/rocf_reference.png (the ROCF model), data/dataset_information/rocfd528_info.csv (ROCFD528 labels), and data/dataset_information/rocfd528_augmented_info.csv (augmented ROCFD528 labels) are only available upon formal request.
+Please note that the files data/dataset_information/rocfd528_info.csv (ROCFD528 labels) and data/dataset_information/rocfd528_augmented_info.csv (augmented ROCFD528 labels) are only available upon formal request.
 
 ## Usage
 
