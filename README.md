@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/language-Python-{green}.svg)
 ![](https://img.shields.io/badge/license-GNU-{yellowgreen}.svg)
 
-This code repository is the official source code of the paper ["Mild Cognitive Impairment Detection from Rey-Osterrieth Complex Figure Copy Drawings using a Contrastive Loss Siamese Neural Network"](https://edatos.consorciomadrono.es/dataverse/rey) by [Juan Guerrero Martín et al.](http://www.simda.uned.es/)
+This code repository is the official source code of the paper ["Mild Cognitive Impairment Detection from Rey-Osterrieth Complex Figure Copy Drawings using a Contrastive Loss Siamese Neural Network"](https://doi.org/10.32604/cmc.2025.066083) by [Juan Guerrero Martín et al.](http://www.simda.uned.es/)
 
 ## Requirements
 
@@ -48,7 +48,13 @@ python train_siamese_model_with_rocf_dataset.py
 If you find this code useful to your research, please cite our paper as the following bibtex:
 
 ```
-TBD
+@article{guerrero2025mild,
+  title={Mild Cognitive Impairment Detection from Rey-Osterrieth Complex Figure Copy Drawings Using a Contrastive Loss Siamese Neural Network},
+  author={Guerrero-Mart{\'\i}n, Juan and Estella-Nonay Eladio and Bachiller-Mayoral, Margarita and Rinc{\'o}n, Mariano},
+  journal={Computers, Materials \& Continua},
+  year={2025},
+  publisher={Tech Science Press}
+}
 ```
 
 ## License
