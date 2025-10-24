@@ -52,6 +52,9 @@ If you find this code useful to your research, please cite our paper as the foll
   title={Mild Cognitive Impairment Detection from Rey-Osterrieth Complex Figure Copy Drawings Using a Contrastive Loss Siamese Neural Network},
   author={Guerrero-Mart{\'\i}n, Juan and Estella-Nonay Eladio and Bachiller-Mayoral, Margarita and Rinc{\'o}n, Mariano},
   journal={Computers, Materials \& Continua},
+  volume={85},
+  number={3},
+  pages={4729--4752},
   year={2025},
   publisher={Tech Science Press}
 }
